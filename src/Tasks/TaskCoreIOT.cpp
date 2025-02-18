@@ -21,7 +21,7 @@ void reconnect_core()
     {
       Serial.print("Failed, rc=");
       Serial.print(client.state());
-      Serial.println(" -> Retry in 5s");
+      Serial.println(" --> Retry in 5s");
       delay(5000);
     }
   }

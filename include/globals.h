@@ -29,6 +29,6 @@
 
 // devices
 #include "../src/device/Device_init.h"
-#include "../src/Tasks/Task_init.h"
+#include "../src/tasks/Task_init.h"
 
 #endif
